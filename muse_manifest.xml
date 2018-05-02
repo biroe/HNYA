@@ -1,0 +1,37 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525238977716">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="collection.css" crc="104693593" ref="collection"/>
+    <file name="index.css" crc="342740688" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection"/>
+    <file name="museutils.js" crc="340535759" ref="index:collection"/>
+    <file name="whatinput.js" crc="86476730" ref="index:collection"/>
+    <file name="museconfig.js" crc="310584261" ref="index:collection"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:collection"/>
+    <file name="require.js" crc="7928878" ref="index:collection"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="collection"/>
+    <file name="webpro.js" crc="4059564322" ref="collection"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="collection"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="collection"/>
+    <file name="touchswipe.js" crc="4075097462" ref="collection"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="img_5518 copy.jpg" crc="465895413" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5518.jpg" crc="237687517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dwe.jpg" crc="4063827425" ref="collection">
+      <caption webpage="collection" alt=""/>
+    </file>
+    <file name="untitldsadaded-1.jpg" crc="114283508" ref="collection">
+      <caption webpage="collection" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="4270965785" seo="true" mt="1525238976205" redirect="true"/>
+  <file name="collection.html" crc="3881946509" seo="true" mt="1525238150374" redirect="true"/>
+</manifest>
