@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525240072024">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525297267025">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="165338278" ref="collection"/>
+    <file name="collection.css" crc="4033834828" ref="collection"/>
     <file name="index.css" crc="342740688" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -32,6 +32,6 @@
       <caption webpage="collection" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4270965785" seo="true" mt="1525240070987" redirect="true"/>
-  <file name="collection.html" crc="3932691618" seo="true" mt="1525240018608" redirect="true"/>
+  <file name="index.html" crc="4270965785" seo="true" mt="1525297266012" redirect="true"/>
+  <file name="collection.html" crc="3930201636" seo="true" mt="1525281912378" redirect="true"/>
 </manifest>
