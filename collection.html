@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4098049346"/>
-  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=3904204160" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=107913506" id="pagesheet"/>
     <!--HTML Widget code-->
   
 <style>
@@ -25,6 +25,164 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </style>
 
 
+		<style>
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,800,100,200,300,500,600,900);
+.u12461btn,  .u12461borders, .u12461stripes, .u12461text{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.u12461btn {
+  outline: none;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  overflow: hidden;
+  display: inline-block;
+  background-color: transparent;
+border-radius: {param_borderRadius}px;
+    cursor: pointer;
+width:100%;
+height:30px;
+}
+.u12461btn .u12461stripes {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  background: transparent;
+}
+.u12461btn .u12461stripes span {
+  display: inline-block;
+  width: 13%;
+  height: 100%;
+  margin-left: -.5%;
+  background: #C1272D;
+  transform: translateY(101%);
+}
+.u12461btn .u12461borders {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.u12461btn .u12461borders span {
+  position: absolute;
+  display: block;
+  background: #C1272D;
+}
+.u12461btn .u12461borders span:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 2px;
+}
+.u12461btn .u12461borders span:nth-child(2) {
+  right: 0;
+  top: 0;
+  width: 2px;
+  height: 0;
+}
+.u12461btn .u12461borders span:nth-child(3) {
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+}
+.u12461btn .u12461borders span:nth-child(4) {
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  height: 0;
+}
+.u12461btn .u12461text {
+  transition: color 500ms ease-in-out;
+  position: relative;
+  z-index: 3;
+
+ 
+
+  
+  color: #000000;
+}
+.u12461btn:hover .u12461stripes {
+  background: transparent;
+}
+.u12461btn:hover .u12461stripes span {
+  -webkit-animation: moveUp .3s ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+}
+.u12461btn:hover .u12461stripes span:nth-child(1) {
+  -webkit-animation-delay: 0.5s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(2) {
+  -webkit-animation-delay: 0.55s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(3) {
+  -webkit-animation-delay: 0.6s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(4) {
+  -webkit-animation-delay: 0.65s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(5) {
+  -webkit-animation-delay: 0.7s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(6) {
+  -webkit-animation-delay: 0.75s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(7) {
+  -webkit-animation-delay: 0.8s;
+}
+.u12461btn:hover .u12461stripes span:nth-child(8) {
+  -webkit-animation-delay: 0.85s;
+}
+.u12461btn:hover .u12461borders span:nth-child(1), .u12461btn:hover .u12461borders span:nth-child(3) {
+  width: 100%;
+}
+.u12461btn:hover .u12461borders span:nth-child(2), .u12461btn:hover .u12461borders span:nth-child(4) {
+  height: 100%;
+}
+.u12461btn:hover .u12461borders span:nth-child(1) {
+  transition: width 100ms linear 0.1s, height 100ms linear 0.1s;
+}
+.u12461btn:hover .u12461borders span:nth-child(2) {
+  transition: width 100ms linear 0.2s, height 100ms linear 0.2s;
+}
+.u12461btn:hover .u12461borders span:nth-child(3) {
+  transition: width 100ms linear 0.3s, height 100ms linear 0.3s;
+}
+.u12461btn:hover .u12461borders span:nth-child(4) {
+  transition: width 100ms linear 0.4s, height 100ms linear 0.4s;
+}
+.u12461btn:hover .u12461text {
+  transition: color 200ms ease-in-out .6s;
+  color: transparent;
+}
+
+@-webkit-keyframes moveUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.linkClass{
+    text-decoration: none !important;
+}	
+</style>
+	
 		<style>
 a.u11829{color:#FFFFFF}
 .u11829 {
@@ -316,6 +474,296 @@ letter-spacing: 2px;
 		</style>
 	
 		<style>
+a.u12271{color:#FFFFFF}
+.u12271 {
+  background: transparent;
+  width: 100%;
+  height: 91px;
+line-height: 91px;
+  text-align: center;
+position: absolute;
+border-radius:3px;
+}
+.u12271 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u12271:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u12271:hover:before, .u12271:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u12271:hover span, .u12271:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u12271:hover span:nth-child(1), .u12271:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u12271:hover span:nth-child(2), .u12271:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u12271:hover span:nth-child(3), .u12271:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u12271:hover span:nth-child(4), .u12271:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u12271:hover span:nth-child(5), .u12271:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u12271:hover span:nth-child(6), .u12271:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
+		<style>
+a.u12269{color:#FFFFFF}
+.u12269 {
+  background: transparent;
+  width: 100%;
+  height: 91px;
+line-height: 91px;
+  text-align: center;
+position: absolute;
+border-radius:3px;
+}
+.u12269 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u12269:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u12269:hover:before, .u12269:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u12269:hover span, .u12269:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u12269:hover span:nth-child(1), .u12269:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u12269:hover span:nth-child(2), .u12269:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u12269:hover span:nth-child(3), .u12269:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u12269:hover span:nth-child(4), .u12269:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u12269:hover span:nth-child(5), .u12269:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u12269:hover span:nth-child(6), .u12269:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
+		<style>
+a.u12273{color:#FFFFFF}
+.u12273 {
+  background: transparent;
+  width: 100%;
+  height: 91px;
+line-height: 91px;
+  text-align: center;
+position: absolute;
+border-radius:3px;
+}
+.u12273 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u12273:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u12273:hover:before, .u12273:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u12273:hover span, .u12273:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u12273:hover span:nth-child(1), .u12273:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u12273:hover span:nth-child(2), .u12273:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u12273:hover span:nth-child(3), .u12273:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u12273:hover span:nth-child(4), .u12273:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u12273:hover span:nth-child(5), .u12273:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u12273:hover span:nth-child(6), .u12273:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
+		<style>
+a.u12275{color:#000000}
+.u12275 {
+  background: transparent;
+  width: 100%;
+  height: 91px;
+line-height: 91px;
+  text-align: center;
+position: absolute;
+border-radius:3px;
+}
+.u12275 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u12275:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u12275:hover:before, .u12275:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u12275:hover span, .u12275:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u12275:hover span:nth-child(1), .u12275:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u12275:hover span:nth-child(2), .u12275:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u12275:hover span:nth-child(3), .u12275:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u12275:hover span:nth-child(4), .u12275:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u12275:hover span:nth-child(5), .u12275:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u12275:hover span:nth-child(6), .u12275:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
+		<style>
+a.u12277{color:#000000}
+.u12277 {
+  background: transparent;
+  width: 100%;
+  height: 91px;
+line-height: 91px;
+  text-align: center;
+position: absolute;
+border-radius:3px;
+}
+.u12277 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u12277:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u12277:hover:before, .u12277:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u12277:hover span, .u12277:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u12277:hover span:nth-child(1), .u12277:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u12277:hover span:nth-child(2), .u12277:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u12277:hover span:nth-child(3), .u12277:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u12277:hover span:nth-child(4), .u12277:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u12277:hover span:nth-child(5), .u12277:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u12277:hover span:nth-child(6), .u12277:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
+		<style>
 
 
 
@@ -515,6 +963,7 @@ text-decoration:none !important;
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
+   <a class="anchor_item grpelem" id="top"></a>
    <div class="clearfix grpelem" id="ppu10255"><!-- column -->
     <div class="clearfix colelem" id="pu10255"><!-- group -->
      <div class="size_fixed grpelem" id="u10255"><!-- custom html -->
@@ -596,6 +1045,17 @@ return false;
      </div>
      <div class="browser_width grpelem" id="u9458-bw">
       <div id="u9458"><!-- simple frame --></div>
+     </div>
+     <div class="size_fixed grpelem" id="u12461"><!-- custom html -->
+      
+<a href="about.html" class="linkClass">
+<button class="u12461btn">
+  <div class="u12461borders"><span></span><span></span><span></span><span></span></div>
+  <div class="u12461stripes"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="u12461text">Store</div>
+</button>
+</a>
+
      </div>
     </div>
     <div class="clearfix colelem" id="pu9585"><!-- group -->
@@ -680,6 +1140,99 @@ return false;
      </div>
      <a class="anchor_item grpelem" id="product"></a>
     </div>
+    <div class="PamphletWidget clearfix colelem" id="pamphletu12264"><!-- none box -->
+     <div class="popup_anchor" id="u12267popup">
+      <div class="ContainerGroup clearfix" id="u12267"><!-- stack box -->
+       <div class="Container museBGSize grpelem" id="u12270"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u12268"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u12272"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u12274"><!-- simple frame --></div>
+       <div class="Container invi museBGSize grpelem" id="u12276"><!-- simple frame --></div>
+      </div>
+     </div>
+     <div class="ThumbGroup clearfix grpelem" id="u12280"><!-- none box -->
+      <div class="popup_anchor grpelem" id="pu12283popup">
+       <div class="popup_element Thumb clearfix" id="pu12283"><!-- group -->
+        <div class="popup_anchor" id="u12283popup">
+         <div class="popup_element clearfix" id="u12283"><!-- group -->
+          <div class="size_fixed grpelem" id="u12271"><!-- custom html -->
+           
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u12271 ' data-text='5. Final ' href=''>
+<span>フィナァーレ</span>    
+</a>
+	
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu12284popup">
+       <div class="popup_element Thumb clearfix" id="pu12284"><!-- group -->
+        <div class="popup_anchor" id="u12284popup">
+         <div class="popup_element clearfix" id="u12284"><!-- group -->
+          <div class="size_fixed grpelem" id="u12269"><!-- custom html -->
+           
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u12269 ' data-text='4. template' href=''>
+<span>いい感じ</span>    
+</a>
+	
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu12282popup">
+       <div class="popup_element Thumb clearfix" id="pu12282"><!-- group -->
+        <div class="popup_anchor" id="u12282popup">
+         <div class="popup_element clearfix" id="u12282"><!-- group -->
+          <div class="size_fixed grpelem" id="u12273"><!-- custom html -->
+           
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u12273 ' data-text='3. color ' href=''>
+<span>black or white</span>    
+</a>
+	
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu12285popup">
+       <div class="popup_element Thumb clearfix" id="pu12285"><!-- group -->
+        <div class="popup_anchor" id="u12285popup">
+         <div class="popup_element clearfix" id="u12285"><!-- group -->
+          <div class="size_fixed grpelem" id="u12275"><!-- custom html -->
+           
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u12275 ' data-text='2.　KAMON' href=''>
+<span>make your own</span>    
+</a>
+	
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor grpelem" id="pu12281popup">
+       <div class="popup_element Thumb clearfix" id="pu12281"><!-- group -->
+        <div class="popup_anchor" id="u12281popup">
+         <div class="popup_element clearfix" id="u12281"><!-- group -->
+          <div class="size_fixed grpelem" id="u12277"><!-- custom html -->
+           
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u12277 ' data-text='1.　Hello ' href=''>
+<span>やっほ</span>    
+</a>
+	
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
     <div class="colelem" id="u8834"><!-- simple frame --></div>
    </div>
    <div class="clearfix grpelem" id="pu8705"><!-- group -->
@@ -698,8 +1251,9 @@ return false;
 
     </div>
     <a class="nonblock nontext anim_swing clearfix" id="u11250-4" href="collection.html#product"><!-- content --><p><span id="u11250">Product</span></p></a>
+    <a class="nonblock nontext anim_swing rounded-corners clearfix" id="u11968-4" href="collection.html#top"><!-- content --><p>Top</p></a>
    </div>
-   <div class="verticalspacer" data-offset-top="2902" data-content-above-spacer="2901" data-content-below-spacer="0"></div>
+   <div class="verticalspacer" data-offset-top="3946" data-content-above-spacer="3945" data-content-below-spacer="0"></div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -728,6 +1282,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('#pamphletu8770', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:700,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu8770 */
 Muse.Utils.initWidget('#pamphletu11441', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:400,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu11441 */
+Muse.Utils.initWidget('#pamphletu12264', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:400,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu12264 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $('#u8777').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-32.85]},{"speed":[0,0],"in":[-32.85,Infinity]}]);/* scroll effect */
 $('#u8778').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-32.85]},{"speed":[0,0],"in":[-32.85,Infinity]}]);/* scroll effect */
@@ -743,7 +1298,6 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
-	
 <script>
 
 </script>
