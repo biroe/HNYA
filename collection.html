@@ -16,16 +16,50 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Collection</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=493753617" id="pagesheet"/>
-   </head>
+  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4098049346"/>
+  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=3882355166" id="pagesheet"/>
+    <!--HTML Widget code-->
+  
+<style>
+
+</style>
+
+
+ </head>
  <body>
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu9458"><!-- column -->
-    <div class="browser_width colelem" id="u9458-bw">
-     <div id="u9458"><!-- simple frame --></div>
-    </div>
-    <div class="clearfix colelem" id="ppamphletu8770"><!-- group -->
+   <div class="clearfix grpelem" id="ppu10255"><!-- column -->
+    <div class="clearfix colelem" id="pu10255"><!-- group -->
+     <div class="size_fixed grpelem" id="u10255"><!-- custom html -->
+      
+			
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+var showAlert = false;
+$(document).ready(function(){
+// this part disables the right click
+$('html').on('contextmenu', function(e) {
+    
+	if (showAlert) {
+        alert("Right Click has been Deactivated!");
+    }
+    showAlert = false;
+	
+return false;
+});
+
+//this part disables dragging of image
+$('img').on('dragstart', function(e) {
+return false;
+});
+
+});
+</script>
+
+
+     </div>
      <div class="PamphletWidget clearfix grpelem" id="pamphletu8770"><!-- none box -->
       <div class="popup_anchor" id="u8775popup">
        <div class="ContainerGroup clearfix" id="u8775"><!-- stack box -->
@@ -74,6 +108,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="browser_width grpelem" id="u9333-bw">
       <div class="museBGSize" id="u9333"><!-- simple frame --></div>
      </div>
+     <div class="browser_width grpelem" id="u9458-bw">
+      <div id="u9458"><!-- simple frame --></div>
+     </div>
     </div>
     <div class="clearfix colelem" id="pu9585"><!-- group -->
      <div class="browser_width grpelem" id="u9585-bw">
@@ -111,7 +148,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
