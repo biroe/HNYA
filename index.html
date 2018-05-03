@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=375751023"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=415584829" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=494880645" id="pagesheet"/>
     <!--HTML Widget code-->
   
 <style>
@@ -25,6 +25,64 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </style>
 
 
+		<style>
+a.u10406{color:#FFFFFF}
+.u10406 {
+  background: #000000;
+  width: 100%;
+  height: 60px;
+line-height: 60px;
+  text-align: center;
+position: absolute;
+border-radius:0px;
+}
+.u10406 span {
+  display: inline-block;
+  min-width: 0.3em;
+letter-spacing: 2px;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  opacity: 0;
+  transform: translate(0, -20px);
+}
+.u10406:before {
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  left: 0;
+  transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+  letter-spacing: 2px;
+  opacity: 1;
+  transform: translate(0, 0px);
+}
+.u10406:hover:before, .u10406:focus:before {
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+.u10406:hover span, .u10406:focus span {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.u10406:hover span:nth-child(1), .u10406:focus span:nth-child(1) {
+  transition-delay: 0.025s;
+}
+.u10406:hover span:nth-child(2), .u10406:focus span:nth-child(2) {
+  transition-delay: 0.05s;
+}
+.u10406:hover span:nth-child(3), .u10406:focus span:nth-child(3) {
+  transition-delay: 0.075s;
+}
+.u10406:hover span:nth-child(4), .u10406:focus span:nth-child(4) {
+  transition-delay: 0.1s;
+}
+.u10406:hover span:nth-child(5), .u10406:focus span:nth-child(5) {
+  transition-delay: 0.125s;
+}
+.u10406:hover span:nth-child(6), .u10406:focus span:nth-child(6) {
+  transition-delay: 0.15s;
+}
+
+		</style>
+	
  </head>
  <body>
 
@@ -60,7 +118,6 @@ return false;
 
 
      </div>
-     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u1899-4" href="index.html"><!-- content --><p>HNYA</p></a>
      <div class="SlideShowWidget clearfix grpelem" id="slideshowu9000"><!-- none box -->
       <div class="popup_anchor" data-col-pos="0" id="u9005popup">
        <div class="SlideShowContentPanel clearfix" data-col-pos="0" id="u9005"><!-- stack box -->
@@ -110,26 +167,33 @@ return false;
        </div>
       </div>
      </div>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u1899-4" href="index.html"><!-- content --><p>HNYA</p></a>
     </div>
-    <div class="clearfix colelem" id="ppu1911-4"><!-- group -->
-     <div class="clearfix grpelem" id="pu1911-4"><!-- group -->
-      <div class="clearfix grpelem" id="u1911-4"><!-- content -->
-       <p>HNYA</p>
-      </div>
-      <a class="nonblock nontext grpelem" id="u8988" href="collection.html"><!-- content --></a>
+    <div class="clearfix colelem" id="pu8997"><!-- group -->
+     <div class="grpelem" id="u8997"><!-- content --></div>
+     <div class="clearfix grpelem" id="u1911-4"><!-- content -->
+      <p>HNYA</p>
      </div>
      <div class="clearfix grpelem" id="u1958-4"><!-- content -->
       <p>ABOUT</p>
      </div>
-     <div class="clearfix grpelem" id="u1959-4"><!-- content -->
-      <p>KAMON</p>
-     </div>
-     <a class="nonblock nontext grpelem" id="u8991" href="collection.html"><!-- content --></a>
-     <div class="grpelem" id="u8997"><!-- content --></div>
     </div>
-    <div class="verticalspacer" data-offset-top="851" data-content-above-spacer="851" data-content-below-spacer="13"></div>
+    <a class="nonblock nontext size_fixed colelem" id="u10406" href="collection.html"><!-- custom html -->
+<!-- This Adobe Muse widget was created by the team at MuseFree.com -->
+<a aria-label='word' class='u10406 ' data-text='COLLECTION' href=''>
+<span>KAMON</span>    
+</a>
+	</a>
+    <div class="verticalspacer" data-offset-top="1033" data-content-above-spacer="1033" data-content-below-spacer="13"></div>
    </div>
   </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -155,5 +219,9 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=310584261" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+	
    </body>
 </html>
