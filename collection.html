@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4098049346"/>
-  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=3874620490" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/collection.css?crc=139131386" id="pagesheet"/>
     <!--HTML Widget code-->
   
 <style>
@@ -27,160 +27,198 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 
 		<style>
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,800,100,200,300,500,600,900);
-.u12461btn,  .u12461borders, .u12461stripes, .u12461text{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
+
+
+
+.u12762btn {
+	line-height: 80px;
+	height: 80px;
+	text-align: center;
+	width: 100%px;
+	cursor: pointer;
+}
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.u12762btn-one {
+	color: #FFFFFF;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+}
+.u12762btn-one span {
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.u12762btn-one::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #C1272D;
+	border-bottom-color: #C1272D;
+	-webkit-transform: scale(0.1, 1);
+	        transform: scale(0.1, 1);
+}
+.u12762btn-one:hover span {
+	letter-spacing: 2px;
+}
+.u12762btn-one:hover::before {
+	opacity: 1;	
+	-webkit-transform: scale(1, 1);	
+	        transform: scale(1, 1);	
+}
+.u12762btn-one::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	background-color:transparent;
+    opacity: 0.4;
+}
+.u12762btn-one:hover::after {
+	opacity: 0;	
+	-webkit-transform: scale(0.1, 1);	
+	        transform: scale(0.1, 1);
 }
 
 
-.u12461btn {
-  outline: none;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  overflow: hidden;
-  display: inline-block;
-  background-color: transparent;
-border-radius: {param_borderRadius}px;
-    cursor: pointer;
-width:100%;
-height:30px;
+/* 
+========================
+      BUTTON TWO
+========================
+*/
+.u12762btn-two {
+	color: #FFFFFF;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;	
 }
-.u12461btn .u12461stripes {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  white-space: nowrap;
-  background: transparent;
+.u12762btn-two span {
+	z-index: 2;	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;	
 }
-.u12461btn .u12461stripes span {
-  display: inline-block;
-  width: 13%;
-  height: 100%;
-  margin-left: -.5%;
-  background: #C1272D;
-  transform: translateY(101%);
+.u12762btn-two::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 1px solid #C1272D;
+	background-color: transparent;
+    opacity: 0.4;
 }
-.u12461btn .u12461borders {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
+.u12762btn-two::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+    opacity: 0.4;
 }
-.u12461btn .u12461borders span {
-  position: absolute;
-  display: block;
-  background: #C1272D;
-}
-.u12461btn .u12461borders span:nth-child(1) {
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 2px;
-}
-.u12461btn .u12461borders span:nth-child(2) {
-  right: 0;
-  top: 0;
-  width: 2px;
-  height: 0;
-}
-.u12461btn .u12461borders span:nth-child(3) {
-  right: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-}
-.u12461btn .u12461borders span:nth-child(4) {
-  left: 0;
-  bottom: 0;
-  width: 2px;
-  height: 0;
-}
-.u12461btn .u12461text {
-  transition: color 500ms ease-in-out;
-  position: relative;
-  z-index: 3;
-
- 
-
+.u12762btn-two:hover::before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+    
+background-color: rgba(255,255,255,0);
   
-  color: #000000;
 }
-.u12461btn:hover .u12461stripes {
-  background: transparent;
-}
-.u12461btn:hover .u12461stripes span {
-  -webkit-animation: moveUp .3s ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-}
-.u12461btn:hover .u12461stripes span:nth-child(1) {
-  -webkit-animation-delay: 0.5s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(2) {
-  -webkit-animation-delay: 0.55s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(3) {
-  -webkit-animation-delay: 0.6s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(4) {
-  -webkit-animation-delay: 0.65s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(5) {
-  -webkit-animation-delay: 0.7s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(6) {
-  -webkit-animation-delay: 0.75s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(7) {
-  -webkit-animation-delay: 0.8s;
-}
-.u12461btn:hover .u12461stripes span:nth-child(8) {
-  -webkit-animation-delay: 0.85s;
-}
-.u12461btn:hover .u12461borders span:nth-child(1), .u12461btn:hover .u12461borders span:nth-child(3) {
-  width: 100%;
-}
-.u12461btn:hover .u12461borders span:nth-child(2), .u12461btn:hover .u12461borders span:nth-child(4) {
-  height: 100%;
-}
-.u12461btn:hover .u12461borders span:nth-child(1) {
-  transition: width 100ms linear 0.1s, height 100ms linear 0.1s;
-}
-.u12461btn:hover .u12461borders span:nth-child(2) {
-  transition: width 100ms linear 0.2s, height 100ms linear 0.2s;
-}
-.u12461btn:hover .u12461borders span:nth-child(3) {
-  transition: width 100ms linear 0.3s, height 100ms linear 0.3s;
-}
-.u12461btn:hover .u12461borders span:nth-child(4) {
-  transition: width 100ms linear 0.4s, height 100ms linear 0.4s;
-}
-.u12461btn:hover .u12461text {
-  transition: color 200ms ease-in-out .6s;
-  color: transparent;
+.u12762btn-two:hover::after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+    border: 1px solid #C1272D;
+   background-color: rgba(255,255,255,0);
+    
+    
+
 }
 
-@-webkit-keyframes moveUp {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
 
+/* 
+========================
+      BUTTON THREE
+========================
+*/
+.u12762btn-three {
+	color: #FFFFFF;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	position: relative;
+}
+.u12762btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: transparent;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    opacity: 0.4;
+ 
+}
+.u12762btn-three:hover::before {
+	opacity: 0 ;
+	-webkit-transform: scale(0.5,0.5);
+	        transform: scale(0.5,0.5);
+}
+.u12762btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	
+	-webkit-transform: scale(1.2,1.2);
+	        transform: scale(1.2,1.2);
+    opacity: 0.4;
+}
+.u12762btn-three:hover::after {
+    border: 1px solid #C1272D;
+	opacity: 1;
+	-webkit-transform: scale(1,1);
+	        transform: scale(1,1);
+}
 .linkClass{
-    text-decoration: none !important;
-}	
+text-decoration:none !important;
+}
+	
 </style>
 	
 		<style>
@@ -1053,202 +1091,6 @@ letter-spacing: 2px;
 
 		</style>
 	
-		<style>
-
-
-
-
-.u10765btn {
-	line-height: 59px;
-	height: 59px;
-	text-align: center;
-	width: 100%px;
-	cursor: pointer;
-}
-
-/* 
-========================
-      BUTTON ONE
-========================
-*/
-.u10765btn-one {
-	color: #000000;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	position: relative;
-}
-.u10765btn-one span {
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.u10765btn-one::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #C1272D;
-	border-bottom-color: #C1272D;
-	-webkit-transform: scale(0.1, 1);
-	        transform: scale(0.1, 1);
-}
-.u10765btn-one:hover span {
-	letter-spacing: 2px;
-}
-.u10765btn-one:hover::before {
-	opacity: 1;	
-	-webkit-transform: scale(1, 1);	
-	        transform: scale(1, 1);	
-}
-.u10765btn-one::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	background-color:transparent;
-    opacity: 0.4;
-}
-.u10765btn-one:hover::after {
-	opacity: 0;	
-	-webkit-transform: scale(0.1, 1);	
-	        transform: scale(0.1, 1);
-}
-
-
-/* 
-========================
-      BUTTON TWO
-========================
-*/
-.u10765btn-two {
-	color: #000000;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-	position: relative;	
-}
-.u10765btn-two span {
-	z-index: 2;	
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;	
-}
-.u10765btn-two::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-	border: 1px solid #C1272D;
-	background-color: transparent;
-    opacity: 0.4;
-}
-.u10765btn-two::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-    opacity: 0.4;
-}
-.u10765btn-two:hover::before {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-    
-background-color: rgba(255,255,255,0);
-  
-}
-.u10765btn-two:hover::after {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-    border: 1px solid #C1272D;
-   background-color: rgba(255,255,255,0);
-    
-    
-
-}
-
-
-/* 
-========================
-      BUTTON THREE
-========================
-*/
-.u10765btn-three {
-	color: #000000;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-	position: relative;
-}
-.u10765btn-three::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	background-color: transparent;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-    opacity: 0.4;
- 
-}
-.u10765btn-three:hover::before {
-	opacity: 0 ;
-	-webkit-transform: scale(0.5,0.5);
-	        transform: scale(0.5,0.5);
-}
-.u10765btn-three::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	
-	-webkit-transform: scale(1.2,1.2);
-	        transform: scale(1.2,1.2);
-    opacity: 0.4;
-}
-.u10765btn-three:hover::after {
-    border: 1px solid #C1272D;
-	opacity: 1;
-	-webkit-transform: scale(1,1);
-	        transform: scale(1,1);
-}
-.linkClass{
-text-decoration:none !important;
-}
-	
-</style>
-	
  </head>
  <body>
 
@@ -1330,21 +1172,15 @@ return false;
        </div>
       </div>
      </div>
-     <div class="browser_width grpelem" id="u9333-bw">
-      <div class="museBGSize" id="u9333"><!-- simple frame --></div>
-     </div>
-     <div class="browser_width grpelem" id="u9458-bw">
-      <div id="u9458"><!-- simple frame --></div>
-     </div>
-     <div class="size_fixed grpelem" id="u12461"><!-- custom html -->
+     <div class="size_fixed grpelem" id="u12762"><!-- custom html -->
       
-<a href="about.html" class="linkClass">
-<button class="u12461btn">
-  <div class="u12461borders"><span></span><span></span><span></span><span></span></div>
-  <div class="u12461stripes"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-  <div class="u12461text">Store</div>
-</button>
+
+<a class="linkClass" href="index.html">
+  <div class="u12762btn u12762btn-two">
+    <span>HNYA</span>
+  </div>
 </a>
+ 
 
      </div>
     </div>
@@ -1427,6 +1263,9 @@ return false;
         <div class="Thumb popup_element" id="u11443"><!-- simple frame --></div>
        </div>
       </div>
+     </div>
+     <div class="browser_width grpelem" id="u9333-bw">
+      <div class="museBGSize" id="u9333"><!-- simple frame --></div>
      </div>
      <a class="anchor_item grpelem" id="product"></a>
     </div>
@@ -1618,24 +1457,7 @@ return false;
     </div>
     <div class="colelem" id="u8834"><!-- simple frame --></div>
    </div>
-   <div class="clearfix grpelem" id="pu8705"><!-- group -->
-    <div class="browser_width" id="u8705-bw">
-     <div id="u8705"><!-- simple frame --></div>
-    </div>
-    <div class="size_fixed" id="u10765"><!-- custom html -->
-     
-
-<a class="linkClass" href="index.html">
-  <div class="u10765btn u10765btn-one">
-    <span>HNYA</span>
-  </div>
-</a>
- 
-
-    </div>
-    <a class="nonblock nontext anim_swing clearfix" id="u11250-4" href="collection.html#product"><!-- content --><p><span id="u11250">Product</span></p></a>
-    <a class="nonblock nontext anim_swing rounded-corners clearfix" id="u11968-4" href="collection.html#top"><!-- content --><p>Top</p></a>
-   </div>
+   <a class="nonblock nontext anim_swing rounded-corners clearfix" id="u11968-4" href="collection.html#top"><!-- content --><p>Top</p></a>
    <div class="verticalspacer" data-offset-top="4259" data-content-above-spacer="4258" data-content-below-spacer="0"></div>
   </div>
   <!-- JS includes -->
@@ -1668,10 +1490,10 @@ Muse.Utils.initWidget('#pamphletu11441', ['#bp_infinity'], function(elem) { retu
 Muse.Utils.initWidget('#pamphletu12590', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:400,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu12590 */
 Muse.Utils.initWidget('#pamphletu12264', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:400,hideAllContentsFirst:false,triggersOnTop:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu12264 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u8777').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-32.85]},{"speed":[0,0],"in":[-32.85,Infinity]}]);/* scroll effect */
-$('#u8778').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-32.85]},{"speed":[0,0],"in":[-32.85,Infinity]}]);/* scroll effect */
+$('#u8777').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100.15]},{"speed":[0,0],"in":[-100.15,Infinity]}]);/* scroll effect */
+$('#u8778').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-100.15]},{"speed":[0,0],"in":[-100.15,Infinity]}]);/* scroll effect */
 $('#u9585').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,752]},{"speed":[0,0],"in":[752,Infinity]}]);/* scroll effect */
-$('#u9594').registerOpacityScrollEffect([{"fade":256,"opacity":0,"in":[-Infinity,500]},{"opacity":100,"in":[500,500]},{"fade":262,"opacity":100,"in":[500,Infinity]}]);/* scroll effect */
+$('#u9594').registerOpacityScrollEffect([{"fade":256,"in":[-Infinity,500],"opacity":0},{"opacity":100,"in":[500,500]},{"fade":262,"in":[500,Infinity],"opacity":100}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};

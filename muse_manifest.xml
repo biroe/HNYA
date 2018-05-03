@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525384613030">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525389184460">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="3874620490" ref="collection"/>
-    <file name="index.css" crc="143267727" ref="index"/>
+    <file name="collection.css" crc="139131386" ref="collection"/>
+    <file name="index.css" crc="193148699" ref="index"/>
     <file name="master_b-master.css" crc="4098049346" ref="collection:about"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
     <file name="about.css" crc="465311024" ref="about"/>
@@ -51,7 +51,6 @@
     <file name="dwe.jpg" crc="4063827425" ref="collection">
       <caption webpage="collection" alt=""/>
     </file>
-    <file name="untitldsadaded-1 copy-u8778-fr.jpg" crc="129414141" ref="collection"/>
     <file name="fuji kamon -u9333-fr.png" crc="486556674" ref="collection"/>
     <file name="mon1111jyh ふぃな.png" crc="9344566" ref="collection">
       <caption webpage="collection" alt=""/>
@@ -62,8 +61,11 @@
     <file name="fuji kamon -u11503-fr.png" crc="4141372704" ref="collection"/>
     <file name="img_5088-u11448-fr.jpg" crc="3912473225" ref="collection"/>
     <file name="img_5460-u11449-fr.jpg" crc="3799145846" ref="collection"/>
+    <file name="untitldsadaded-1 copy.jpg" crc="4203080623" ref="collection">
+      <caption webpage="collection" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="61043508" seo="true" mt="1525342578001" redirect="true"/>
-  <file name="collection.html" crc="3790714954" seo="true" mt="1525384599647" redirect="true"/>
+  <file name="index.html" crc="116686083" seo="true" mt="1525388753542" redirect="true"/>
+  <file name="collection.html" crc="3900942063" seo="true" mt="1525388413985" redirect="true"/>
   <file name="about.html" crc="10273211" seo="true" mt="1525340583972" redirect="true"/>
 </manifest>
