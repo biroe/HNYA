@@ -1,18 +1,19 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525338650051">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525341893916">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="81950806" ref="collection"/>
-    <file name="index.css" crc="494880645" ref="index"/>
-    <file name="master_b-master.css" crc="4098049346" ref="collection"/>
+    <file name="collection.css" crc="3831390324" ref="collection"/>
+    <file name="index.css" crc="514845742" ref="index"/>
+    <file name="master_b-master.css" crc="4098049346" ref="collection:about"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
+    <file name="about.css" crc="465311024" ref="about"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection"/>
-    <file name="museutils.js" crc="340535759" ref="index:collection"/>
-    <file name="whatinput.js" crc="86476730" ref="index:collection"/>
-    <file name="museconfig.js" crc="310584261" ref="index:collection"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:collection"/>
-    <file name="require.js" crc="7928878" ref="index:collection"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection:about"/>
+    <file name="museutils.js" crc="340535759" ref="index:collection:about"/>
+    <file name="whatinput.js" crc="86476730" ref="index:collection:about"/>
+    <file name="museconfig.js" crc="310584261" ref="index:collection:about"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:collection:about"/>
+    <file name="require.js" crc="7928878" ref="index:collection:about"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="collection"/>
     <file name="webpro.js" crc="4059564322" ref="collection:index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="collection:index"/>
@@ -55,6 +56,7 @@
     </file>
     <file name="untitldsadaded-1 copy-u8778-fr.jpg" crc="129414141" ref="collection"/>
   </folder>
-  <file name="index.html" crc="4287522160" seo="true" mt="1525338610595" redirect="true"/>
-  <file name="collection.html" crc="4240612507" seo="true" mt="1525338387850" redirect="true"/>
+  <file name="index.html" crc="274447893" seo="true" mt="1525341601003" redirect="true"/>
+  <file name="collection.html" crc="4260500216" seo="true" mt="1525341883337" redirect="true"/>
+  <file name="about.html" crc="10273211" seo="true" mt="1525340583972" redirect="true"/>
 </manifest>
