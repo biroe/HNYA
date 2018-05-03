@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525350341391">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525384613030">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="107913506" ref="collection"/>
+    <file name="collection.css" crc="3874620490" ref="collection"/>
     <file name="index.css" crc="143267727" ref="index"/>
     <file name="master_b-master.css" crc="4098049346" ref="collection:about"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
@@ -64,6 +64,6 @@
     <file name="img_5460-u11449-fr.jpg" crc="3799145846" ref="collection"/>
   </folder>
   <file name="index.html" crc="61043508" seo="true" mt="1525342578001" redirect="true"/>
-  <file name="collection.html" crc="43191230" seo="true" mt="1525350308710" redirect="true"/>
+  <file name="collection.html" crc="3790714954" seo="true" mt="1525384599647" redirect="true"/>
   <file name="about.html" crc="10273211" seo="true" mt="1525340583972" redirect="true"/>
 </manifest>
