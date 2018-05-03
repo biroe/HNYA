@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525324328293">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525325897920">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="289505531" ref="collection"/>
+    <file name="collection.css" crc="493753617" ref="collection"/>
     <file name="index.css" crc="370600126" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -53,6 +53,6 @@
     </file>
     <file name="untitldsadaded-1-u8778-fr.jpg" crc="4066932732" ref="collection"/>
   </folder>
-  <file name="index.html" crc="269637591" seo="true" mt="1525319736345" redirect="true"/>
-  <file name="collection.html" crc="4231827660" seo="true" mt="1525324327393" redirect="true"/>
+  <file name="index.html" crc="287545445" seo="true" mt="1525325881935" redirect="true"/>
+  <file name="collection.html" crc="30575424" seo="true" mt="1525325891219" redirect="true"/>
 </manifest>
