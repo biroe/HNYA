@@ -1,28 +1,29 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525498887029">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525503694790">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="10886822" ref="collection"/>
-    <file name="index.css" crc="4061890160" ref="index"/>
-    <file name="master_b-master.css" crc="4098049346" ref="collection:about"/>
+    <file name="collection.css" crc="432018624" ref="collection"/>
+    <file name="index.css" crc="304662661" ref="index"/>
+    <file name="master_b-master.css" crc="4098049346" ref="collection:about:kamon"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
     <file name="about.css" crc="315942492" ref="about"/>
+    <file name="kamon.css" crc="32959141" ref="kamon"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection:about"/>
-    <file name="museutils.js" crc="340535759" ref="index:collection:about"/>
-    <file name="whatinput.js" crc="86476730" ref="index:collection:about"/>
-    <file name="museconfig.js" crc="310584261" ref="index:collection:about"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:collection:about"/>
-    <file name="require.js" crc="7928878" ref="index:collection:about"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="collection"/>
-    <file name="webpro.js" crc="4059564322" ref="collection:index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="collection:index"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="collection:index"/>
-    <file name="touchswipe.js" crc="4075097462" ref="collection:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection:about:kamon"/>
+    <file name="museutils.js" crc="340535759" ref="index:collection:about:kamon"/>
+    <file name="whatinput.js" crc="86476730" ref="index:collection:about:kamon"/>
+    <file name="museconfig.js" crc="310584261" ref="index:collection:about:kamon"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:collection:about:kamon"/>
+    <file name="require.js" crc="7928878" ref="index:collection:about:kamon"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="collection:kamon"/>
+    <file name="webpro.js" crc="4059564322" ref="collection:index:kamon"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="collection:index:kamon"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="collection:index:kamon"/>
+    <file name="touchswipe.js" crc="4075097462" ref="collection:index:kamon"/>
     <file name="jquery.scrolleffects.js" crc="39568856" ref="collection"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:collection"/>
+    <file name="blank.gif" crc="4208392903" ref="index:collection:kamon"/>
     <file name="img_5460 copy68x45.jpg" crc="156505182" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -40,11 +41,13 @@
       <caption webpage="collection" alt=""/>
     </file>
     <file name="fuji kamon -u9333-fr.png" crc="486556674" ref="collection"/>
-    <file name="mon1111jyh ふぃな.png" crc="9344566" ref="collection">
+    <file name="mon1111jyh ふぃな.png" crc="9344566" ref="kamon">
       <caption webpage="collection" alt=""/>
+      <caption webpage="kamon" alt=""/>
     </file>
-    <file name="black.png" crc="4267543094" ref="collection">
+    <file name="black.png" crc="4267543094" ref="kamon">
       <caption webpage="collection" alt=""/>
+      <caption webpage="kamon" alt=""/>
     </file>
     <file name="black hhnya logo.jpg" crc="4185431111" ref="collection">
       <caption webpage="collection" alt=""/>
@@ -63,17 +66,20 @@
     </file>
     <file name="instagram-logo-a807ad378b-seeklogocom_-u13780.png" crc="4025620257" ref="index"/>
     <file name="facebook-logo_318-49940-u13772.png" crc="194931346" ref="index"/>
-    <file name="img_5460.jpg" crc="3799145846" ref="collection">
+    <file name="img_5460.jpg" crc="3799145846" ref="kamon">
       <caption webpage="collection" alt=""/>
+      <caption webpage="kamon" alt=""/>
     </file>
-    <file name="fuji kamon -u12599-fr.png" crc="4141372704" ref="collection"/>
-    <file name="img_5088.jpg" crc="3912473225" ref="collection">
+    <file name="img_5088.jpg" crc="3912473225" ref="kamon">
       <caption webpage="collection" alt=""/>
+      <caption webpage="kamon" alt=""/>
     </file>
     <file name="instagram-logo-a807ad378b-seeklogocom_-u13953.png" crc="4025620257" ref="about"/>
     <file name="facebook-logo_318-49940-u13951.png" crc="194931346" ref="about"/>
+    <file name="fuji kamon -u14281-fr.png" crc="4141372704" ref="kamon"/>
   </folder>
-  <file name="index.html" crc="4225931235" seo="true" mt="1525497920102" redirect="true"/>
-  <file name="collection.html" crc="414304778" seo="true" mt="1525498204769" redirect="true"/>
+  <file name="index.html" crc="355483134" seo="true" mt="1525503665980" redirect="true"/>
+  <file name="collection.html" crc="4112105985" seo="true" mt="1525503656677" redirect="true"/>
   <file name="about.html" crc="306072996" seo="true" mt="1525498348380" redirect="true"/>
+  <file name="kamon.html" crc="3842883514" seo="true" mt="1525503682856" redirect="true"/>
 </manifest>
