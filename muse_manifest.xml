@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525503694790">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525519845711">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="collection.css" crc="432018624" ref="collection"/>
@@ -6,7 +6,7 @@
     <file name="master_b-master.css" crc="4098049346" ref="collection:about:kamon"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
     <file name="about.css" crc="315942492" ref="about"/>
-    <file name="kamon.css" crc="32959141" ref="kamon"/>
+    <file name="kamon.css" crc="390223839" ref="kamon"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection:about:kamon"/>
@@ -81,5 +81,5 @@
   <file name="index.html" crc="355483134" seo="true" mt="1525503665980" redirect="true"/>
   <file name="collection.html" crc="4112105985" seo="true" mt="1525503656677" redirect="true"/>
   <file name="about.html" crc="306072996" seo="true" mt="1525498348380" redirect="true"/>
-  <file name="kamon.html" crc="3842883514" seo="true" mt="1525503682856" redirect="true"/>
+  <file name="kamon.html" crc="4210420401" seo="true" mt="1525504238312" redirect="true"/>
 </manifest>
