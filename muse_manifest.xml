@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525464117730">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="wowowhnya.com" resolutions="1x" timestamp="1525498887029">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="collection.css" crc="422750589" ref="collection"/>
-    <file name="index.css" crc="274546404" ref="index"/>
+    <file name="collection.css" crc="10886822" ref="collection"/>
+    <file name="index.css" crc="4061890160" ref="index"/>
     <file name="master_b-master.css" crc="4098049346" ref="collection:about"/>
     <file name="master_a-master.css" crc="375751023" ref="index"/>
-    <file name="about.css" crc="465311024" ref="about"/>
+    <file name="about.css" crc="315942492" ref="about"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:collection:about"/>
@@ -23,18 +23,6 @@
   </folder>
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index:collection"/>
-    <file name="img_5518.jpg" crc="72401510" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img_5460 copy.jpg" crc="3786505161" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="_cwp9254.jpg" crc="115500763" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="img_5523_1.jpg" crc="4289034713" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="img_5460 copy68x45.jpg" crc="156505182" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -55,17 +43,37 @@
     <file name="mon1111jyh ふぃな.png" crc="9344566" ref="collection">
       <caption webpage="collection" alt=""/>
     </file>
-    <file name="black.png" crc="342222518" ref="collection">
+    <file name="black.png" crc="4267543094" ref="collection">
       <caption webpage="collection" alt=""/>
     </file>
-    <file name="fuji kamon -u11503-fr.png" crc="4141372704" ref="collection"/>
-    <file name="img_5088-u11448-fr.jpg" crc="3912473225" ref="collection"/>
-    <file name="img_5460-u11449-fr.jpg" crc="3799145846" ref="collection"/>
     <file name="black hhnya logo.jpg" crc="4185431111" ref="collection">
       <caption webpage="collection" alt=""/>
     </file>
+    <file name="img_5460 copy-crop-u9177.jpg" crc="3937857689" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="_cwp9254-crop-u9309.jpg" crc="3785619867" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5518-crop-u9217.jpg" crc="251536383" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_5523_1-crop-u9237.jpg" crc="444205562" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram-logo-a807ad378b-seeklogocom_-u13780.png" crc="4025620257" ref="index"/>
+    <file name="facebook-logo_318-49940-u13772.png" crc="194931346" ref="index"/>
+    <file name="img_5460.jpg" crc="3799145846" ref="collection">
+      <caption webpage="collection" alt=""/>
+    </file>
+    <file name="fuji kamon -u12599-fr.png" crc="4141372704" ref="collection"/>
+    <file name="img_5088.jpg" crc="3912473225" ref="collection">
+      <caption webpage="collection" alt=""/>
+    </file>
+    <file name="instagram-logo-a807ad378b-seeklogocom_-u13953.png" crc="4025620257" ref="about"/>
+    <file name="facebook-logo_318-49940-u13951.png" crc="194931346" ref="about"/>
   </folder>
-  <file name="index.html" crc="3791582620" seo="true" mt="1525451599798" redirect="true"/>
-  <file name="collection.html" crc="4187617614" seo="true" mt="1525464114694" redirect="true"/>
-  <file name="about.html" crc="10273211" seo="true" mt="1525450558136" redirect="true"/>
+  <file name="index.html" crc="4225931235" seo="true" mt="1525497920102" redirect="true"/>
+  <file name="collection.html" crc="414304778" seo="true" mt="1525498204769" redirect="true"/>
+  <file name="about.html" crc="306072996" seo="true" mt="1525498348380" redirect="true"/>
 </manifest>
